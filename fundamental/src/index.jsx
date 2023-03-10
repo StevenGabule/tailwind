@@ -8,11 +8,13 @@ import './index.css';
 import App from './App';
 import reportWebVitals from './reportWebVitals';
 import LandPage from './LandPage';
+import GroceryApp from './pages/GroceryApp';
 
 
 const router = createBrowserRouter([
   { path: '/', element: <App /> },
-  { path: '/landpage', element: <LandPage /> },
+  { path: '/landing-page', element: <LandPage /> },
+  { path: '/grocery-app', element: <GroceryApp /> },
 ])
 
 const root = ReactDOM.createRoot(document.getElementById('root'));

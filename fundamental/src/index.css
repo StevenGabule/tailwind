@@ -1,3 +1,109 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Poppins', sans-serif;
+}
+
+@layer utilities {
+  .base-container {
+    max-width: 1400px;
+  }
+  .font-size-really-small {
+    font-size: 11px;
+  }
+  .line-height-really-small {
+    line-height: 11px;
+  }
+  .top-n-cart {
+    top: -4px;
+  }
+
+  .right-n-cart {
+    right: -5px;
+  }
+
+  .right-9rm {
+    right: 9rem;
+  }
+}
+
+.swiper {
+  width: 100%;
+  height: 100%;
+}
+
+.swiper-slide {
+  text-align: center;
+  font-size: 18px;
+  background: #fff;
+
+  /* Center slide text vertically */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.swiper-slide img {
+  display: block;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.swiper {
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.background-subscription-form {
+  background-color: #f8f8f8 !important;
+}
+
+.color-subscription-text-orange {
+  color: #FF644E !important;
+}
+
+.color-subscription-text-blue
+{
+  color: #004B9B !important;
+}
+
+.color-banner-left {
+  background-color: #CBEFFB;
+}
+
+.color-banner-right {
+  background-color: #FFEC79;
+}
+
+.last-left-color-banner {
+  background-color: #E4753D;
+}
+
+.last-right-color-banner {
+  background-color: #43A953;
+}
+
+.bg-capture-color {
+  background-color: #C86939;
+}
+
+.bg-capture-color-last {
+  background-color: #3E964C;
+}
+
+.text-color-current {
+  color: #555555;
+}
+
+.bg-light-green {
+  background-color: #EAF9F2;
+  color: #5D5F5E;
+  padding: 4px 25px;
+  border-radius: 25px;
+}
